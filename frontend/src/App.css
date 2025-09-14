@@ -1,0 +1,67 @@
+body {
+  background-color: #e0f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #00796b;
+  text-align: center;
+}
+
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: vertical;
+}
+
+hr {
+  margin: 40px 0;
+  border-color: #00796b;
+}
+
+.alert-card {
+  border: 1px solid #00796b;
+  background-color: #b2dfdb;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.chat-response {
+  background-color: #f1f8e9;
+  border: 1px solid #dcedc8;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
